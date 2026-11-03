@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "University Practice Senior High School · UNIPRA, Cape Coast",
+      "hasCanvas": false,
+      "bodyTextLen": 3267,
+      "bodyTextHash": "af425103929b898be7796751598bbaab92de964478e5a47199b7ae0da87d4935",
+      "bodyTextPrefix": "Skip to content Cape Coast, Central Region +233 55 253 7260 univ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "University Practice Senior High School · UNIPRA, Cape Coast",
+      "hasCanvas": false,
+      "bodyTextLen": 2877,
+      "bodyTextHash": "4b728b8c53c48131a32c00d31a601a4e4bf18f952b3789022fa7f2d5190f748b",
+      "bodyTextPrefix": "Skip to content Cape Coast, Central Region +233 55 253 7260 univ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

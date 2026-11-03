@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", "Times New Roman", serif;
+
+  --color-navy: #0b2c4a;
+  --color-navy-deep: #071e34;
+  --color-ink: #1a2330;
+  --color-muted: #5c6b78;
+  --color-line: #e2d9c8;
+  --color-cream: #f4f0e6;
+  --color-paper: #fbf8f2;
+  --color-gold: #c4a35a;
+  --color-gold-deep: #7a5e24;
+
+  --radius-sm: 0.25rem;
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-balance text-navy;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-navy);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .field {
+    @apply min-h-11 w-full rounded-sm border border-line bg-paper px-3 text-base text-ink outline-none;
+  }
+
+  .field:focus {
+    border-color: var(--color-navy);
+  }
+
+  .lbl {
+    @apply text-sm font-semibold text-navy;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

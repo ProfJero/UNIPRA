@@ -1,0 +1,9 @@
+name = "upshs-cms"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+
+# Set secrets with wrangler, never in this file:
+# SUPABASE_URL, SUPABASE_SERVICE_ROLE, SESSION_SECRET, BOOTSTRAP_TOKEN
+# CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET
+[vars]
+ALLOWED_ORIGIN = "*"
